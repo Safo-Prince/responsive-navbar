@@ -21,7 +21,7 @@ const Nav = () => {
 
           <div
             onClick={() => setOPen(!open)}
-            className="mobile:absolute mobile:top-6 right-8 cursor-pointer "
+            className="mobile:absolute mobile:top-6 right-8 cursor-pointer  "
           >
             {open ? (
               <X size={32} weight="bold" />
